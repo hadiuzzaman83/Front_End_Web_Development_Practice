@@ -1,0 +1,211 @@
+/*
+*{
+	margin: 0;
+	padding: 0;
+
+}
+*/
+body{
+	background-color:none;
+	color: rgb(7, 6, 6);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: normal;
+	/*same as above*/
+	font:normal 15px Arial,Helvetica,sans-serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color:red;
+
+}
+a:active{
+	color: green;
+}
+.container{
+	width:60%;
+	margin:auto;	
+}
+.button{
+	padding:10px 15px;
+	border:none;
+	background-color: rgb(13, 74, 102);
+	color: rgb(255, 255, 254);
+	font-weight: bold;
+}
+.button:hover{
+	background-color: red;
+	color:black;
+
+}
+.clr{
+	clear: both;
+}
+.box-1{
+
+	color: black;
+	border-right: 2px red solid;
+	border-left: 2px red solid;
+	border-top:2px red solid;
+	border-bottom:2px red solid;
+	/*same as above */
+	
+	border-width: 3px;
+	border-bottom-width: 6px;
+	border-top-style: dotted;
+
+	border:2px red solid;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	/*same as above */
+	padding:20px;
+	margin-top:20px;
+	margin:20px 0px; /*20px for top and bottom/0px for left and right */
+}
+.box-1 h1{
+	color: aliceblue;
+	font-family:Tahoma;
+	font-weight: 800;
+	font-style: normal;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	background-color: rgb(17, 48, 48);
+}
+.box-2{
+	border:2px dotted rgb(41, 24, 139);
+	padding:20px;
+	margin:20px 0px; 
+	border-radius: 10px;
+	background-color: aquamarine;
+}
+.Categories{
+	border: 3px green solid;
+	padding:20px;
+	border-radius: 10px;
+}
+.Categories h2{
+	text-align: center;
+}
+.Categories ul{
+	padding: 0px;
+	list-style: none;
+}
+.Categories li{
+	padding-bottom: 6px;
+	border-bottom: 3px dotted grey;
+	list-style-image:url('Images/gg.png');
+	
+}
+.my-form{
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border:2px solid black;
+	background-color: rgb(29, 143, 133);
+}
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"]{
+	padding:8px;
+	width: 100%;
+}
+.my-form textarea{
+	padding:80px;
+	width:30%;
+}
+/*
+.my-form input[type="submit"]{
+	padding:10px 15px;
+	border:none;
+	background-color: cadetblue;
+	color: cornsilk;
+	font-weight: bold;
+}
+*/
+.block{
+	margin-top: 20px;
+	float:left;
+	width:33.3%;
+	border:1px solid black;
+	padding:10px;
+	box-sizing: border-box;
+}
+#main-block{
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	padding:15px;
+	background-color: rgb(14, 105, 78);
+	color: cornsilk;
+	margin-top: 10px;
+
+}
+#sidebar{
+	float: right;
+	width:30%;
+	background-color: antiquewhite;
+	color: black;
+	padding:15px;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.p-box{
+	width: 100%;
+	height: 500px;
+	border: 1px solid black;
+	margin-top: 20px;
+	position: relative;
+	background-image: url('Images/jj.jpg');
+	background-repeat: no-repeat;
+	background-position: center top ;
+	background-size: cover;
+}
+.p-box h2{
+	top: 200px;
+	position: absolute;
+}
+.p-box h1{
+	top: 100px;
+	position: absolute;
+	bottom: 500px;
+	right: 50px;
+}
+.my-list {
+	padding: 0px;
+	list-style:none;
+
+}
+.my-list li:first-child{
+	background-color: red;
+
+}
+.my-list li:last-child{
+	background-color: blue;
+
+}
+.my-list li:nth-child(5){
+	background-color: aqua;
+
+}
+.my-list li:nth-child(even){
+	background-color:gray;
+
+}
+.fix-me{
+	position: fixed;
+	top:400px;
+}
