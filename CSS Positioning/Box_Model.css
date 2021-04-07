@@ -1,0 +1,28 @@
+body{
+    font-size: 25px;
+}
+div,a {
+    border:1px red solid;
+}
+div{
+    width: 30%;
+    margin:20px;
+    padding: 20px;
+    display: inline-block;
+
+}
+a{
+    /*width: 30%;*/
+    margin-left:20px;
+    margin-right: 20px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    padding: 20px;
+     /*display: block;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    display: inline-block;
+
+
+}

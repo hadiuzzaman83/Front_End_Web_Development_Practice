@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+}
+.box{
+    /*height: 100px;*/
+    background-color: blue;
+    height: 200px;
+    margin: 20px;
+    width: 90%;
+}
+.black{
+    background-color: black;
+    height: 50px;
+    margin: 20px;
+}

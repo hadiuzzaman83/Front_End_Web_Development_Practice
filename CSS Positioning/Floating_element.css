@@ -1,0 +1,35 @@
+
+.container{
+    background-color: grey;
+}
+
+.container::after{
+    content:"";
+    display:block;
+    clear:left;
+}
+
+.box{
+    height: 100px;
+    width:100px;
+    margin-right: 10px;
+    border: 1px black solid;
+    float:left;
+}
+.red{
+    background-color: red;
+
+}
+.black{
+    background-color: blue;
+
+}
+.green{
+    background-color: green;
+
+}
+.another_div{
+    background-color: yellow;
+    /*clear:left;
+    margin-top: 600px;*/
+}

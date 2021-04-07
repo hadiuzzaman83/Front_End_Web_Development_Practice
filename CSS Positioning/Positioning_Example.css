@@ -1,0 +1,64 @@
+*{
+    margin:0 auto;
+    padding:0;
+
+}
+body{
+    background-color: cadetblue;
+}
+header p{
+    font-size: 40px;
+    text-align: center;
+    color: floralwhite;
+    font-weight: bold;
+    background-color: black;
+    padding:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+}
+header span{
+    color:red;
+}
+.services{
+    background-color: gainsboro;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    /*width:98%;*/
+}
+.services h1{
+    text-align: center;
+
+}
+.box h2{
+    text-align: center;
+    /*padding-bottom:10px;
+    border-bottom:1px solid red;*/
+}
+.services::after{
+    content:"";
+    display: block;
+    clear:left;
+}
+.box{
+    margin-top: 20px;
+    width:33.3333%;
+    /*width: 32%;
+     width:calc(33.3333%-1px); */
+    float:left;
+
+}
+.box p{
+    padding: 20px;
+}
+
+ /*.box:nth-child(1),.box:nth-child(2){
+    border-right:1px solid red;
+}
+*/

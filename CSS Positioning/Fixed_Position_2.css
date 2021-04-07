@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    padding-top: 49.6px;
+}
+nav{
+    background-color: gray;
+    padding:12px;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+
+}
+nav::after{
+    content: "";
+    display:block;
+    clear:left;
+}
+nav li{
+    list-style: none;
+    float:left;
+    margin-right: 15px;
+ 
+}
+nav a{
+    text-decoration:none;
+    font-size: 22px;
+    color:honeydew;
+
+   
+}
+nav a:active{
+    color:red;
+}

@@ -1,0 +1,18 @@
+.box{
+    height: 100px;
+    border: 1px black solid;
+}
+.red{
+    background-color: #00FFFF;
+
+}
+.black{
+    background-color: #DEB887;
+    position: relative;
+    top:20px;
+
+}
+.green{
+    background-color:  #A52A2A;
+
+}
