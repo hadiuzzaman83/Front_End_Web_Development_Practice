@@ -39,7 +39,7 @@ body{
 
 }
 #showcase{
-    background-image: url('../Images/tt.jpg');
+    background-image: url('Images/tt.jpg');
     background-position: center right;
     background-size: cover;
     min-height: 300px;
